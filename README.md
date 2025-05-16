@@ -26,3 +26,33 @@ val Manuleedes = human {
         website = "leedes.io"
     }
 }
+
+ @OptIn(ExperimentalResourceApi::class)
+   @Composable
+   fun App() {
+       MaterialTheme {
+           var greetingText by remember { mutableStateOf("Emmanuel, The great") }
+           var showImage by remember { mutableStateOf(false) }
+           Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
+               Button(onClick = {
+                   greetingText = "Hello, ${getPlatformName()}"
+                   showImage = !showImage
+               }) {
+                   Text(greetingText)
+               }
+   +           TextField(greetingText, onValueChange = { greetingText = it })
+               AnimatedVisibility(showImage) {
+                   Image(
+                       painterResource("compose-multiplatform.xml"),
+                       null
+                   )
+               }
+           }
+       }
+   }
+
+
+
+
+
+
