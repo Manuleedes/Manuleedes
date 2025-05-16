@@ -8,3 +8,21 @@
 - ⚡ Fun fact: ...
 
 I have created various projects in different languages to improve my coding skills and make myself ready and available for any software career jobs around
+
+val Manuleedes = human {
+    about {
+        name = "Emmanuel Lidigu"
+        company = Qhala Limited
+        role = Developer_Advocate
+    }
+
+    tech {
+        day("Kotlin", "Spring Boot", "React")
+        night(".*".toRegex())
+    }
+
+    links {
+        twitter = "@lidigu"
+        website = "leedes.io"
+    }
+}
