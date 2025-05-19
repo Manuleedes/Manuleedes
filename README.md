@@ -3,7 +3,7 @@
 - Better understanding of MVVM and MVI design patterns for clean architecture in android
 - Knowledge in KMP and Bubble wrap methodologies for building cross platform applications
 - Building microservices with spring boot and Docker compose
-- Am also a DevOps starter with knowledge in Docker, Kubernetes, Jenkins and TeamCity, Ansible and NGNX
+- Am also a DevOps starter advancing  knowledge in Docker, Kubernetes, Jenkins and GitLab, Ansible and NGNX
 - 👀 I’m interested in improving my skills in computer programmming and Software development through continous transition
 - 🌱 I’m currently learning Web and Android development and cloud infrastructure with AWS
 - 💞️ I’m looking to collaborate on with senior software developer and share ideas in order to solve realworld tech problems
